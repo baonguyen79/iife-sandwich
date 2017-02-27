@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta type="author" content="Bao Nguyen">
+    <title>Sandwich Maker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h2>Sandwich Maker</h2>
+	<h4>Please select your sandwich</h4>	
+	<div id="selection">
+
+		<div>
+			<label>Choose bread:</label>
+		    <select id="bread-chooser">
+		        <option value="">Select One...</option>
+		        <option value="whiteBread">White bread</option>
+		        <option value="wholeWheat">Whole wheat</option>
+		    </select>
+		</div>
+
+		<div>
+		<label>Choose meat:</label>
+		    <select id="meat-chooser">
+		        <option value="">Select One...</option>
+		        <option value="Turkey">Turkey</option>
+		        <option value="Ham">Ham</option>
+		    </select>
+		</div>
+
+		<div>
+		<label>Choose cheese:</label>
+		    <select id="cheese-chooser">
+		        <option value="">Select One...</option>
+		        <option value="Cheddar">Cheddar</option>
+		        <option value="Provolone">Provolone</option>
+		        <option value="Swiss">Swiss</option>
+		    </select>
+		</div>
+		
+		<div>
+		<label>Choose condiments:</label>
+		    <select id="condiments-chooser">
+		        <option value="">Select One...</option>
+		        <option value="Mayonnaise">Mayonnaise</option>
+		        <option value="Mustard">Mustard</option>
+		        <option value="Salsa">Salsa</option>
+		    </select>
+		</div>
+
+		<div>
+		<label>Choose veggies:</label>
+		    <select id="veggies-chooser">
+		        <option value="">Select One...</option>
+		        <option value="Mushrooms">Mushrooms</option>
+		        <option value="Lettuce">Lettuce</option>
+		        <option value="Tomatoes">Tomatoes</option>
+		    </select>
+		</div>
+
+	</div>	
+	<div id="Total"></div>
+
+		<script type="text/javascript" src="./js/SandwichMaker.js"></script>
+		<script type="text/javascript" src="./js/bread.js"></script>
+	    <script type="text/javascript" src="./js/Meat.js"></script>
+	    <script type="text/javascript" src="./js/cheese.js"></script>
+	    <script type="text/javascript" src="./js/condiments.js"></script>
+	    <script type="text/javascript" src="./js/veggies.js"></script>
+	    <script type="text/javascript" src="./js/DOMHandler.js"></script>
+	    
+</body>
+</html>
